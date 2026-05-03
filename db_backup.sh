@@ -2,9 +2,9 @@
 
 # --- CONFIGURATION ---
 CONTAINER_NAME="mariadb"
-DB_USER=""
-DB_PASS=""
-BACKUP_DIR="/DATA/Archive/Backups/Database"
+DB_USER="Your_MariaDB_Root_Username"
+DB_PASS="Your_MariaDB_Root_Password"
+BACKUP_DIR="/Path/To/Your/Backup/Folder"
 DATE=$(date +%Y-%m-%d_%H%M)
 # ---------------------
 
